@@ -15,14 +15,6 @@
 		065894F61C9A93B7000FDDA6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300651C93AF7300E1A1ED /* Task.swift */; };
 		065894F71C9A93B7000FDDA6 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300631C93AF7300E1A1ED /* Errors.swift */; };
 		065894F81C9A93B7000FDDA6 /* TaskCompletionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300661C93AF7300E1A1ED /* TaskCompletionSource.swift */; };
-		065895121C9A947B000FDDA6 /* ExecutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300751C93AF9F00E1A1ED /* ExecutorTests.swift */; };
-		065895131C9A947B000FDDA6 /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300781C93AF9F00E1A1ED /* TaskTests.swift */; };
-		065895141C9A947B000FDDA6 /* TaskCompletionSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300771C93AF9F00E1A1ED /* TaskCompletionSourceTests.swift */; };
-		0658951F1C9A9496000FDDA6 /* BoltsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065894FF1C9A93B7000FDDA6 /* BoltsSwift.framework */; };
-		810AB3201C9B1AC3005B6184 /* XCTestCase+TestName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810AB31F1C9B1AC3005B6184 /* XCTestCase+TestName.swift */; };
-		810AB3211C9B1AC3005B6184 /* XCTestCase+TestName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810AB31F1C9B1AC3005B6184 /* XCTestCase+TestName.swift */; };
-		810AB3221C9B1AC3005B6184 /* XCTestCase+TestName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810AB31F1C9B1AC3005B6184 /* XCTestCase+TestName.swift */; };
-		81CC14F71A9BE0A100B28F86 /* BoltsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC14EC1A9BE0A100B28F86 /* BoltsSwift.framework */; };
 		81D300681C93AF7300E1A1ED /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300631C93AF7300E1A1ED /* Errors.swift */; };
 		81D300691C93AF7300E1A1ED /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300631C93AF7300E1A1ED /* Errors.swift */; };
 		81D3006A1C93AF7300E1A1ED /* Executor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300641C93AF7300E1A1ED /* Executor.swift */; };
@@ -31,13 +23,6 @@
 		81D3006D1C93AF7300E1A1ED /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300651C93AF7300E1A1ED /* Task.swift */; };
 		81D3006E1C93AF7300E1A1ED /* TaskCompletionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300661C93AF7300E1A1ED /* TaskCompletionSource.swift */; };
 		81D3006F1C93AF7300E1A1ED /* TaskCompletionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300661C93AF7300E1A1ED /* TaskCompletionSource.swift */; };
-		81D300791C93AF9F00E1A1ED /* ExecutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300751C93AF9F00E1A1ED /* ExecutorTests.swift */; };
-		81D3007A1C93AF9F00E1A1ED /* ExecutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300751C93AF9F00E1A1ED /* ExecutorTests.swift */; };
-		81D3007D1C93AF9F00E1A1ED /* TaskCompletionSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300771C93AF9F00E1A1ED /* TaskCompletionSourceTests.swift */; };
-		81D3007E1C93AF9F00E1A1ED /* TaskCompletionSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300771C93AF9F00E1A1ED /* TaskCompletionSourceTests.swift */; };
-		81D3007F1C93AF9F00E1A1ED /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300781C93AF9F00E1A1ED /* TaskTests.swift */; };
-		81D300801C93AF9F00E1A1ED /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D300781C93AF9F00E1A1ED /* TaskTests.swift */; };
-		87FEF3721A9085FA00C60678 /* BoltsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FEF3661A9085FA00C60678 /* BoltsSwift.framework */; };
 		F569C0C11CFF6A07000749B6 /* Task+ContinueWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = F569C0C01CFF6A07000749B6 /* Task+ContinueWith.swift */; };
 		F569C0C21CFF6A07000749B6 /* Task+ContinueWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = F569C0C01CFF6A07000749B6 /* Task+ContinueWith.swift */; };
 		F569C0C31CFF6A07000749B6 /* Task+ContinueWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = F569C0C01CFF6A07000749B6 /* Task+ContinueWith.swift */; };
@@ -56,34 +41,9 @@
 		F569C0E41CFF6B1F000749B6 /* Task+WhenAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = F569C0E01CFF6B1F000749B6 /* Task+WhenAny.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0658951D1C9A948E000FDDA6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87FEF35D1A9085FA00C60678 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 065894F31C9A93B7000FDDA6;
-			remoteInfo = "BoltsSwift-tvOS";
-		};
-		81CC14F81A9BE0A100B28F86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87FEF35D1A9085FA00C60678 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 81CC14EB1A9BE0A100B28F86;
-			remoteInfo = "Bolts-Mac";
-		};
-		87FEF3731A9085FA00C60678 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87FEF35D1A9085FA00C60678 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 87FEF3651A9085FA00C60678;
-			remoteInfo = Bolts;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		065894E71C9A933B000FDDA6 /* BoltsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoltsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		065894FF1C9A93B7000FDDA6 /* BoltsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoltsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0658951B1C9A947B000FDDA6 /* BoltsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoltsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		810AB31F1C9B1AC3005B6184 /* XCTestCase+TestName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+TestName.swift"; sourceTree = "<group>"; };
 		812DB5271D3597BF00552C9F /* BoltsSwift-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BoltsSwift-iOS.xcconfig"; sourceTree = "<group>"; };
 		812DB5281D3597BF00552C9F /* BoltsSwift-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BoltsSwift-macOS.xcconfig"; sourceTree = "<group>"; };
@@ -106,7 +66,6 @@
 		812DB53D1D3597BF00552C9F /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 		81951A901D46BA2F00958108 /* Version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Version.xcconfig; sourceTree = "<group>"; };
 		81CC14EC1A9BE0A100B28F86 /* BoltsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoltsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81CC14F61A9BE0A100B28F86 /* BoltsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoltsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D300631C93AF7300E1A1ED /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		81D300641C93AF7300E1A1ED /* Executor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Executor.swift; sourceTree = "<group>"; };
 		81D300651C93AF7300E1A1ED /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
@@ -117,7 +76,6 @@
 		81D300771C93AF9F00E1A1ED /* TaskCompletionSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCompletionSourceTests.swift; sourceTree = "<group>"; };
 		81D300781C93AF9F00E1A1ED /* TaskTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
 		87FEF3661A9085FA00C60678 /* BoltsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoltsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87FEF3711A9085FA00C60678 /* BoltsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoltsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F569C0C01CFF6A07000749B6 /* Task+ContinueWith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+ContinueWith.swift"; sourceTree = "<group>"; };
 		F569C0CB1CFF6AEE000749B6 /* Task+Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+Delay.swift"; sourceTree = "<group>"; };
 		F569C0D61CFF6B18000749B6 /* Task+WhenAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+WhenAll.swift"; sourceTree = "<group>"; };
@@ -139,14 +97,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		065895151C9A947B000FDDA6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0658951F1C9A9496000FDDA6 /* BoltsSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81CC14E81A9BE0A100B28F86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,26 +104,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81CC14F31A9BE0A100B28F86 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81CC14F71A9BE0A100B28F86 /* BoltsSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87FEF3621A9085FA00C60678 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87FEF36E1A9085FA00C60678 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87FEF3721A9085FA00C60678 /* BoltsSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,12 +241,9 @@
 			isa = PBXGroup;
 			children = (
 				87FEF3661A9085FA00C60678 /* BoltsSwift.framework */,
-				87FEF3711A9085FA00C60678 /* BoltsSwiftTests.xctest */,
 				81CC14EC1A9BE0A100B28F86 /* BoltsSwift.framework */,
-				81CC14F61A9BE0A100B28F86 /* BoltsSwiftTests.xctest */,
 				065894E71C9A933B000FDDA6 /* BoltsSwift.framework */,
 				065894FF1C9A93B7000FDDA6 /* BoltsSwift.framework */,
-				0658951B1C9A947B000FDDA6 /* BoltsSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -387,24 +318,6 @@
 			productReference = 065894FF1C9A93B7000FDDA6 /* BoltsSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0658950E1C9A947B000FDDA6 /* BoltsSwiftTests-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 065895181C9A947B000FDDA6 /* Build configuration list for PBXNativeTarget "BoltsSwiftTests-tvOS" */;
-			buildPhases = (
-				065895111C9A947B000FDDA6 /* Sources */,
-				065895151C9A947B000FDDA6 /* Frameworks */,
-				065895171C9A947B000FDDA6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0658951E1C9A948E000FDDA6 /* PBXTargetDependency */,
-			);
-			name = "BoltsSwiftTests-tvOS";
-			productName = BoltsTests;
-			productReference = 0658951B1C9A947B000FDDA6 /* BoltsSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		81CC14EB1A9BE0A100B28F86 /* BoltsSwift-macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81CC14FF1A9BE0A100B28F86 /* Build configuration list for PBXNativeTarget "BoltsSwift-macOS" */;
@@ -422,24 +335,6 @@
 			productName = "Bolts-Mac";
 			productReference = 81CC14EC1A9BE0A100B28F86 /* BoltsSwift.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		81CC14F51A9BE0A100B28F86 /* BoltsSwiftTests-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81CC15021A9BE0A100B28F86 /* Build configuration list for PBXNativeTarget "BoltsSwiftTests-macOS" */;
-			buildPhases = (
-				81CC14F21A9BE0A100B28F86 /* Sources */,
-				81CC14F31A9BE0A100B28F86 /* Frameworks */,
-				81CC14F41A9BE0A100B28F86 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				81CC14F91A9BE0A100B28F86 /* PBXTargetDependency */,
-			);
-			name = "BoltsSwiftTests-macOS";
-			productName = "Bolts-MacTests";
-			productReference = 81CC14F61A9BE0A100B28F86 /* BoltsSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		87FEF3651A9085FA00C60678 /* BoltsSwift-iOS */ = {
 			isa = PBXNativeTarget;
@@ -459,24 +354,6 @@
 			productReference = 87FEF3661A9085FA00C60678 /* BoltsSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		87FEF3701A9085FA00C60678 /* BoltsSwiftTests-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 87FEF37F1A9085FA00C60678 /* Build configuration list for PBXNativeTarget "BoltsSwiftTests-iOS" */;
-			buildPhases = (
-				87FEF36D1A9085FA00C60678 /* Sources */,
-				87FEF36E1A9085FA00C60678 /* Frameworks */,
-				87FEF36F1A9085FA00C60678 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				87FEF3741A9085FA00C60678 /* PBXTargetDependency */,
-			);
-			name = "BoltsSwiftTests-iOS";
-			productName = BoltsTests;
-			productReference = 87FEF3711A9085FA00C60678 /* BoltsSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -494,14 +371,7 @@
 					81CC14EB1A9BE0A100B28F86 = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					81CC14F51A9BE0A100B28F86 = {
-						CreatedOnToolsVersion = 6.3;
-					};
 					87FEF3651A9085FA00C60678 = {
-						CreatedOnToolsVersion = 6.3;
-						LastSwiftMigration = 0800;
-					};
-					87FEF3701A9085FA00C60678 = {
 						CreatedOnToolsVersion = 6.3;
 						LastSwiftMigration = 0800;
 					};
@@ -520,11 +390,8 @@
 			projectRoot = "";
 			targets = (
 				87FEF3651A9085FA00C60678 /* BoltsSwift-iOS */,
-				87FEF3701A9085FA00C60678 /* BoltsSwiftTests-iOS */,
 				81CC14EB1A9BE0A100B28F86 /* BoltsSwift-macOS */,
-				81CC14F51A9BE0A100B28F86 /* BoltsSwiftTests-macOS */,
 				065894F31C9A93B7000FDDA6 /* BoltsSwift-tvOS */,
-				0658950E1C9A947B000FDDA6 /* BoltsSwiftTests-tvOS */,
 				065894E61C9A933B000FDDA6 /* BoltsSwift-watchOS */,
 			);
 		};
@@ -545,13 +412,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		065895171C9A947B000FDDA6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81CC14EA1A9BE0A100B28F86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -559,21 +419,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81CC14F41A9BE0A100B28F86 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87FEF3641A9085FA00C60678 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87FEF36F1A9085FA00C60678 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -613,17 +459,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		065895111C9A947B000FDDA6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				065895121C9A947B000FDDA6 /* ExecutorTests.swift in Sources */,
-				065895131C9A947B000FDDA6 /* TaskTests.swift in Sources */,
-				065895141C9A947B000FDDA6 /* TaskCompletionSourceTests.swift in Sources */,
-				810AB3221C9B1AC3005B6184 /* XCTestCase+TestName.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81CC14E71A9BE0A100B28F86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -636,17 +471,6 @@
 				F569C0E21CFF6B1F000749B6 /* Task+WhenAny.swift in Sources */,
 				81D300691C93AF7300E1A1ED /* Errors.swift in Sources */,
 				81D3006F1C93AF7300E1A1ED /* TaskCompletionSource.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81CC14F21A9BE0A100B28F86 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81D3007A1C93AF9F00E1A1ED /* ExecutorTests.swift in Sources */,
-				81D300801C93AF9F00E1A1ED /* TaskTests.swift in Sources */,
-				81D3007E1C93AF9F00E1A1ED /* TaskCompletionSourceTests.swift in Sources */,
-				810AB3211C9B1AC3005B6184 /* XCTestCase+TestName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,36 +489,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87FEF36D1A9085FA00C60678 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81D300791C93AF9F00E1A1ED /* ExecutorTests.swift in Sources */,
-				81D3007F1C93AF9F00E1A1ED /* TaskTests.swift in Sources */,
-				81D3007D1C93AF9F00E1A1ED /* TaskCompletionSourceTests.swift in Sources */,
-				810AB3201C9B1AC3005B6184 /* XCTestCase+TestName.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0658951E1C9A948E000FDDA6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 065894F31C9A93B7000FDDA6 /* BoltsSwift-tvOS */;
-			targetProxy = 0658951D1C9A948E000FDDA6 /* PBXContainerItemProxy */;
-		};
-		81CC14F91A9BE0A100B28F86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 81CC14EB1A9BE0A100B28F86 /* BoltsSwift-macOS */;
-			targetProxy = 81CC14F81A9BE0A100B28F86 /* PBXContainerItemProxy */;
-		};
-		87FEF3741A9085FA00C60678 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 87FEF3651A9085FA00C60678 /* BoltsSwift-iOS */;
-			targetProxy = 87FEF3731A9085FA00C60678 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		065894EC1C9A933B000FDDA6 /* Debug */ = {
@@ -725,20 +520,6 @@
 			};
 			name = Release;
 		};
-		065895191C9A947B000FDDA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 812DB52D1D3597BF00552C9F /* BoltsSwiftTests-tvOS.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		0658951A1C9A947B000FDDA6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 812DB52D1D3597BF00552C9F /* BoltsSwiftTests-tvOS.xcconfig */;
-			buildSettings = {
-			};
-			name = Release;
-		};
 		81CC15001A9BE0A100B28F86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 812DB5281D3597BF00552C9F /* BoltsSwift-macOS.xcconfig */;
@@ -749,20 +530,6 @@
 		81CC15011A9BE0A100B28F86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 812DB5281D3597BF00552C9F /* BoltsSwift-macOS.xcconfig */;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		81CC15031A9BE0A100B28F86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 812DB52C1D3597BF00552C9F /* BoltsSwiftTests-macOS.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		81CC15041A9BE0A100B28F86 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 812DB52C1D3597BF00552C9F /* BoltsSwiftTests-macOS.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
@@ -795,20 +562,6 @@
 			};
 			name = Release;
 		};
-		87FEF3801A9085FA00C60678 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 812DB52B1D3597BF00552C9F /* BoltsSwiftTests-iOS.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		87FEF3811A9085FA00C60678 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 812DB52B1D3597BF00552C9F /* BoltsSwiftTests-iOS.xcconfig */;
-			buildSettings = {
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -830,29 +583,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		065895181C9A947B000FDDA6 /* Build configuration list for PBXNativeTarget "BoltsSwiftTests-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				065895191C9A947B000FDDA6 /* Debug */,
-				0658951A1C9A947B000FDDA6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		81CC14FF1A9BE0A100B28F86 /* Build configuration list for PBXNativeTarget "BoltsSwift-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81CC15001A9BE0A100B28F86 /* Debug */,
 				81CC15011A9BE0A100B28F86 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		81CC15021A9BE0A100B28F86 /* Build configuration list for PBXNativeTarget "BoltsSwiftTests-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				81CC15031A9BE0A100B28F86 /* Debug */,
-				81CC15041A9BE0A100B28F86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -871,15 +606,6 @@
 			buildConfigurations = (
 				87FEF37D1A9085FA00C60678 /* Debug */,
 				87FEF37E1A9085FA00C60678 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		87FEF37F1A9085FA00C60678 /* Build configuration list for PBXNativeTarget "BoltsSwiftTests-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				87FEF3801A9085FA00C60678 /* Debug */,
-				87FEF3811A9085FA00C60678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
